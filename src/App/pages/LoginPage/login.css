@@ -1,0 +1,131 @@
+
+.login{
+	background: url(../../assets/images/Street-Dance-01.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.app-wrap {
+	display:flex;
+	flex-direction:column;
+	height: 100vh;
+	background-color: rgb(133, 96, 169, 0.7);
+}
+
+.app-wrap > * {
+	flex:1 1 auto;
+}
+
+/*
+Header
+*/  
+.app-header {
+	display:flex;
+	flex-direction: column;
+	align-items:center;
+	justify-content:center;
+	color: #D5EF7F;
+	margin-top: 7rem;
+	padding: 1rem;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+.app-header > .blackcat{
+	font-weight: bold;
+	font-size: 24px;
+	margin-top: 16px;
+}
+
+.logo{
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 3rem;
+	padding: 1rem;
+	height: 5px;
+	display: flex;
+    justify-content: center;
+}
+
+.logo .logo-icon{
+	background: #D5EF7F;
+    width: 60px;
+    height: 60px;
+    -webkit-box-align: center;
+    position: absolute;
+    margin-top: 5px;
+}
+
+.logo .logo-circle{
+	border: 1px solid #D5EF7F;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+input[type=text], input[type='password']{
+	border-radius:20px;
+	background: transparent;
+	width: 240px;
+	height: 40px;
+	padding: 16px;
+	margin: 10px;
+	border: 1px solid white;
+	opacity: 0.5;
+	padding-left: 40px;
+}
+	input:active,
+	input:focus {
+	background: #FFFFFF;
+	opacity: 0.2;
+	color: #453257;
+}
+
+.form-login{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 1rem;
+}
+
+::placeholder {
+	color: #FFFFFF;
+	opacity: 1;
+}
+
+.btn-sign-in{
+	background-color: greenyellow;
+	height: 20px;
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+}
+
+.btn-sign-in button{
+	font-size: 16px;
+	color: #453257;
+	font-family: SourceSansPro-Semibold;
+	text-transform: uppercase;
+	border: 0px;
+	background: transparent;
+	font-weight: bold;
+}
+
+.btn-sign-in button:hover{
+	border:0px;
+}
+
+.form-group .img-icon{
+	width: 20px;
+	position: absolute;
+	top: 20px;
+	left:22px;
+}
+
+.form-group{
+	position: relative;
+}

@@ -1,0 +1,122 @@
+
+html {
+box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    font-size: 1.5rem;
+    /* background-image: linear-gradient(260deg, #2376ae 0%, #c16ecf 100%); */
+}
+
+.container{
+	position: relative;
+	display: flex;
+	flex-direction: column;
+}
+
+a{
+	cursor: pointer;
+}
+
+
+/* Icon */
+.search-icon {
+	height: 20px;
+	width:20px;
+	background: #453257;
+	-webkit-mask:url('../images/search.svg') no-repeat center;	
+	mask-image: url('../images/search.svg') no-repeat center;	
+	
+}
+
+.logo-icon{
+	height: 20px;
+	width:20px;
+	background: #D5EF7F;
+	-webkit-mask:url('../images/logo-cat.svg') no-repeat center;
+	mask-image: url('../images/logo-cat.svg') no-repeat center;	
+}
+
+.user-icon{
+	height: 20px;
+	width:20px;
+	background: #D5EF7F;
+	-webkit-mask:url('../images/user.svg') no-repeat center;
+	mask-image: url('../images/user.svg') no-repeat center;	
+}
+
+.time-icon{
+	height: 15px;
+	width:15px;
+	background: #8560A9;
+	-webkit-mask:url('../images/time.svg') no-repeat center;
+	mask-image: url('../images/time.svg') no-repeat center;	
+}
+
+.check-icon{
+	height: 15px;
+	width:15px;
+	background: #AECB4F;
+	-webkit-mask:url('../images/check.svg') no-repeat center;
+	mask-image: url('../images/check.svg') no-repeat center;	
+}
+
+.like-icon{
+	height: 15px;
+	width:15px;
+	background: #FF5C5C;
+	-webkit-mask:url('../images/like.svg') no-repeat center;
+	mask-image: url('../images/like.svg') no-repeat center;	
+}
+
+.info-icon{
+	height: 15px;
+	width:15px;
+	background: #BABABA;
+	-webkit-mask:url('../images/info.svg') no-repeat center;
+	mask-image: url('../images/info.svg') no-repeat center;	
+}
+
+
+.comment-icon{
+	height: 15px;
+	width:15px;
+	background: #BABABA;
+	-webkit-mask:url('../images/comment.svg') no-repeat center;
+	mask-image: url('../images/comment.svg') no-repeat center;	
+}
+
+
+.participants-icon{
+	height: 15px;
+	width:15px;
+	background: #BABABA;
+	-webkit-mask:url('../images/people.svg') no-repeat center;
+	mask-image: url('../images/people.svg') no-repeat center;	
+}
+
+.user-icon{
+	height: 18px;
+	width:18px;
+	background: #D3C1E5;
+	-webkit-mask:url('../images/user.svg') no-repeat center;
+	mask-image: url('../images/user.svg') no-repeat center;	
+}
+
+.password-icon{
+	height: 18px;
+	width:18px;
+	background: #D3C1E5;
+	-webkit-mask:url('../images/password.svg') no-repeat center;
+	mask-image: url('../images/password.svg') no-repeat center;	
+}
